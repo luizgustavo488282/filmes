@@ -1,0 +1,11 @@
+CineWave - projeto Android (WebView)
+
+1. Instale o Android Studio (gratuito): https://developer.android.com/studio
+2. Abra o Android Studio > File > Open > escolha a pasta "CineWave" (esta pasta).
+3. Espere o "Gradle sync" terminar (baixa tudo sozinho, precisa de internet).
+4. Gerar o APK:  Build > Build Bundle(s) / APK(s) > Build APK(s)
+   O arquivo fica em:  app/build/outputs/apk/debug/app-debug.apk
+5. Copie o APK para o celular e instale (permita "instalar apps desconhecidos").
+
+Para trocar o endereço do site: edite SITE_URL em
+app/src/main/java/br/com/filmebr/app/MainActivity.java
